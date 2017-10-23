@@ -12,6 +12,5 @@ This project was originally developed under the environment:
 Demo:
 -------------
 The following picture illustrate the procedure that a user takes a picture to the sky, upload the picture and then obtain the AQI result.
-![](https://github.com/Zihua-Liu/AQI-Detector/blob/master/Demo/Picture1.jpg)
-![](https://github.com/Zihua-Liu/AQI-Detector/blob/master/Demo/Picture1.jpg)
-![](https://github.com/Zihua-Liu/AQI-Detector/blob/master/Demo/Picture1.jpg)
+
+![](https://github.com/Zihua-Liu/AQI-Detector/blob/master/Demo/Picture1.jpg)![](https://github.com/Zihua-Liu/AQI-Detector/blob/master/Demo/Picture1.jpg)![](https://github.com/Zihua-Liu/AQI-Detector/blob/master/Demo/Picture1.jpg)
