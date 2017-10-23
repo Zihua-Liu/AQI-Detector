@@ -13,4 +13,15 @@ Demo:
 -------------
 The following picture illustrate the procedure that a user takes a picture to the sky, upload the picture and then obtain the AQI result.
 
-![](https://github.com/Zihua-Liu/AQI-Detector/blob/master/Demo/Picture1.jpg)![](https://github.com/Zihua-Liu/AQI-Detector/blob/master/Demo/Picture1.jpg)![](https://github.com/Zihua-Liu/AQI-Detector/blob/master/Demo/Picture1.jpg)
+![](https://github.com/Zihua-Liu/AQI-Detector/blob/master/Demo/Picture1.jpg)![](https://github.com/Zihua-Liu/AQI-Detector/blob/master/Demo/Picture2.jpg)![](https://github.com/Zihua-Liu/AQI-Detector/blob/master/Demo/Picture3.jpg)
+
+Technical Proposal:
+-------------
+Processing the image:
+ * The processing of the input image include two steps, dividing the image and predicting the AQI based on the RGB value of the sky.
+
+Dividing the image:
+ * At first, we use SVM algorithm to simply devide the image into several parts and then use erosion and dilation to smooth the sky parts. At last, we use Grabcut algorithm to do the partition and filtrate the results.
+ 
+Predicting the AQI:
+ * We train a linear regression model on our training datasets and we obtain the AQI of the new image from the model we trained based on the RGB value of all pixels of the image.
